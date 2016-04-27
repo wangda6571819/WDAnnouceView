@@ -2,7 +2,7 @@
 ##类似淘宝头条的滚动效果
 ![](https://github.com/wangda6571819/WDAnnouceView/blob/master/1.png)
 ## 现有两种类型,纯文本的文字公告滚动,带一张样图的图片公告
-![](https://github.com/wangda6571819/WDAnnouceView/blob/master/2.png)
+![](https://github.com/wangda6571819/WDAnnouceView/blob/master/2.PNG)
 ### WDAnnouncementModel * model1 = [[WDAnnouncementModel alloc]init];
     WDSingleAnnouncementModel *list1 = [[WDSingleAnnouncementModel alloc]init];
     list1.url = @"www.baidu.com";
