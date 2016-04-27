@@ -15,6 +15,8 @@
     model1.list = @[list1,list2];
     model1.durationTime = @"3.0";
     model1.open = @"Y";
+    //当有iconUrl这个属性时 会给左边的加上一个默认图
+    model2.iconUrl = @"testIcon";
     
     [view1 updateListWithModel:model1];
     
