@@ -22,7 +22,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     WDAnnouceView *view1 = [[WDAnnouceView alloc]initWithFrame:CGRectMake(0, 100, kScreenWidth, 35)];
-    view1.backgroundColor = [UIColor greenColor];
     [self.view addSubview:view1];
     
     WDAnnouncementModel * model1 = [[WDAnnouncementModel alloc]init];
@@ -45,7 +44,6 @@
     };
     
     WDAnnouceView *view2 = [[WDAnnouceView alloc]initWithFrame:CGRectMake(0, 200, kScreenWidth, 35)];
-    view2.backgroundColor = [UIColor purpleColor];
     [self.view addSubview:view2];
     
     WDAnnouncementModel * model2 = [[WDAnnouncementModel alloc]init];
